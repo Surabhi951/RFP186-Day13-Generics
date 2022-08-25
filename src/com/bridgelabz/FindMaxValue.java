@@ -1,6 +1,14 @@
 package com.bridgelabz;
 
-public class FindMaxValue {
+public class FindMaxValue<E extends Comparable<E>> {
+
+    E x, y, z;
+
+    public FindMaxValue(E x, E y, E z){
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
     public static <E extends Comparable<E>> E testMaximum(E x, E y, E z){
         E max = x;
         if(y.compareTo(max) > 0){
