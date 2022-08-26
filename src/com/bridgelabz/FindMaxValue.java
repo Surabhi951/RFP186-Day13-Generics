@@ -28,10 +28,6 @@ public class FindMaxValue<E extends Comparable<E>> {
         return max;
 
     }
-
-
-
-
     public static void main(String[] args) {
         System.out.println("The maximum of integer is: " +testMaximum(20,15,10, 25, 18));
         System.out.println("The maximum of float is: " +testMaximum(1.3f,3.5f,2.3f, 2.6f, 1.8f));
